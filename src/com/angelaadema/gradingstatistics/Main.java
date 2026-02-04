@@ -51,7 +51,7 @@ public class Main {
 		double average = 0.0;
 		double maximum = 0.0;
 		double minimum = 0.0;
-		final String PROMPT_GRADE = "Enter a grade or enter 0 if finished: ";
+		final String PROMPT_GRADE = "Enter a grade: ";
 		
 		Scanner scnr = new Scanner(System.in);
 		
