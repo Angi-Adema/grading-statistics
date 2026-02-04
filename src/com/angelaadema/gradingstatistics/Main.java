@@ -46,7 +46,40 @@ public class Main {
 		//     PRINT minimum
 		// END
 		
+		double enteredGrade;
+		double sum = 0.0;
+		double average = 0.0;
+		double maximum = 0.0;
+		double minimum = 0.0;
+		final String PROMPT_GRADE = "Enter a grade or enter 0 if finished: ";
 		
+		Scanner scnr = new Scanner(System.in);
+		
+		for (int i = 0; i < 10; i++) {
+			System.out.println(PROMPT_GRADE);
+			enteredGrade = scnr.nextDouble();
+			
+			if (i == 0) {
+				maximum = enteredGrade;
+				minimum = enteredGrade;
+			} else {
+				if (enteredGrade > maximum) {
+					maximum = enteredGrade;
+				}
+				
+				if (enteredGrade < minimum) {
+					minimum = enteredGrade;
+				}
+			}
+		}
+		 
+		average = sum / 10;
+		
+		System.out.println("Average grade is :" + average);
+		System.out.println("Maximum grade is :" + maximum);
+		System.out.println("Minimum grade is :" + minimum);
+
+
 
 	}
 
