@@ -16,11 +16,11 @@ public class Main {
 		//			minimum
 		//          PROMPT_GRADE
 		//
-		//     SET PROMPT_GRADE TO "Enter a grade or enter 0 if finished: "
+		//     SET PROMPT_GRADE TO "Please enter a numeric grade: "
 		//
 		//	   CREATE Scanner object FOR user input
 		//
-		//     FOR i = 0 through 9
+		//     FOR i = 0 THROUGH 9 and INCREMENT i
 		//          PRINT PROMPT_GRADE
 		//          READ enteredGrade
 		//          ADD grade to sum
@@ -51,7 +51,7 @@ public class Main {
 		double average = 0.0;
 		double maximum = 0.0;
 		double minimum = 0.0;
-		final String PROMPT_GRADE = "Enter a grade: ";
+		final String PROMPT_GRADE = "Please enter a numeric grade: ";
 		
 		Scanner scnr = new Scanner(System.in);
 		
