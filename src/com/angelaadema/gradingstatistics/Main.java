@@ -59,6 +59,8 @@ public class Main {
 			System.out.println(PROMPT_GRADE);
 			enteredGrade = scnr.nextDouble();
 			
+			sum += enteredGrade;
+			
 			if (i == 0) {
 				maximum = enteredGrade;
 				minimum = enteredGrade;
