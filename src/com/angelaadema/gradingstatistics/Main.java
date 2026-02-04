@@ -77,9 +77,9 @@ public class Main {
 		 
 		average = sum / 10;
 		
-		System.out.printf("Average grade is : %.2f%n" + average);
-		System.out.printf("Maximum grade is : %.2f%n" + maximum);
-		System.out.printf("Minimum grade is : %.2f%n" + minimum);
+		System.out.printf("Average grade is : %.2f%n", average);
+		System.out.printf("Maximum grade is : %.2f%n", maximum);
+		System.out.printf("Minimum grade is : %.2f%n", minimum);
 
 
 
